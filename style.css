@@ -1,0 +1,29 @@
+.lock-screen {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(75, 0, 130); /* Ungu */
+    background-image: url('https://i.ibb.co.com/0pnvqsF9/New-Project-61-C335-AC6.png'); /* Image background */
+    background-size: cover; /* Pastikan background terus menutupi layar */
+    background-position: center; /* Posisi background */
+    text-align: center;
+    padding-top: 20vh;
+}
+
+/* Pastikan elemen lainnya memiliki z-index yang sesuai */
+.unlock-btn {
+    background-color: rgb(0, 128, 0); /* Hijau */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.lock-screen .foreground-image {
+    position: relative;
+    z-index: 1; /* Pastikan gambar di atas background */
+    display: block;
+    margin: 0 auto;
+}
