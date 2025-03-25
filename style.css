@@ -12,18 +12,4 @@
     padding-top: 20vh;
 }
 
-/* Pastikan elemen lainnya memiliki z-index yang sesuai */
-.unlock-btn {
-    background-color: rgb(0, 128, 0); /* Hijau */
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-.lock-screen .foreground-image {
-    position: relative;
-    z-index: 1; /* Pastikan gambar di atas background */
-    display: block;
-    margin: 0 auto;
-}
+
